@@ -12,7 +12,7 @@ Technical Stack
 Network Topology
   1. The architecture consists of a management workstation (Ubuntu VM) connected to a Layer 2 Ethernet Switch, which provides access to the management       interfaces (FastEthernet 0/0) of all three routers.
 
-<img width="916" height="860" alt="Screenshot 2026-05-06 123918" src="https://github.com/user-attachments/assets/0c768346-8a61-42b7-9947-4e4d70cbf92a" />
+<img width="458" height="430" alt="Screenshot 2026-05-06 123918" src="https://github.com/user-attachments/assets/0c768346-8a61-42b7-9947-4e4d70cbf92a" />
 
 
 Inventory Structure
