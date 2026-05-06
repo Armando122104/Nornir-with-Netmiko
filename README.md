@@ -15,6 +15,7 @@ Network Topology
 <img width="458" height="430" alt="Screenshot 2026-05-06 123918" src="https://github.com/user-attachments/assets/0c768346-8a61-42b7-9947-4e4d70cbf92a">
 
 
+
 Inventory Structure
 The project follows a decoupled architecture, separating the logic from the data using YAML files:
   1. hosts.yaml: Contains the IP addresses for R1, R2, and R3.
