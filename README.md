@@ -36,8 +36,10 @@ The automation was successful. The script successfully bypassed standard Linux S
 
 Execution Output
 Below is the output showing the real-time status of the interfaces for all three routers retrieved in a single execution:
+<br>
 <img width="913" height="376" alt="Screenshot 2026-05-06 123618" src="https://github.com/user-attachments/assets/5056dbe2-e84e-43c6-a981-a70a3e84abbc" />
 <br><br>
 
 Author: Jose Armando Martinez Perez
+<br>
 Institution: Instituto Tecnológico de Querétaro (ITQ)
