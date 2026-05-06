@@ -23,11 +23,23 @@ The project follows a decoupled architecture, separating the logic from the data
   3. defaults.yaml: Stores global credentials (username/password).
   4. config.yaml: Configures the Threaded Runner to handle 10 simultaneous workers for parallel execution.
 
+<img width="637" height="73" alt="image" src="https://github.com/user-attachments/assets/6adf1449-63fe-4248-91ca-7545191ad602" />
+
+
 Main Automation Script (main.py)
 The Python script initializes the Nornir object and executes the show ip interface brief command across the entire inventory in parallel.
+<img width="585" height="366" alt="image" src="https://github.com/user-attachments/assets/30724abd-275e-4317-a2f1-8644cadb3fc4" />
+
+
 
 Results and Validation
 The automation was successful. The script successfully bypassed standard Linux SSH security restrictions (obsolete KEX/HostKey algorithms) by using Netmiko's native handling.
+
+Execution Output
+Below is the output showing the real-time status of the interfaces for all three routers retrieved in a single execution:
+
+<img width="913" height="376" alt="Screenshot 2026-05-06 123618" src="https://github.com/user-attachments/assets/5056dbe2-e84e-43c6-a981-a70a3e84abbc" />
+
 
 Author: Jose Armando Martinez Perez
 Institution: Instituto Tecnológico de Querétaro (ITQ)
