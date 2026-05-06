@@ -11,3 +11,19 @@ Technical Stack
 
 Network Topology
   1. The architecture consists of a management workstation (Ubuntu VM) connected to a Layer 2 Ethernet Switch, which provides access to the management       interfaces (FastEthernet 0/0) of all three routers.
+
+Inventory Structure
+The project follows a decoupled architecture, separating the logic from the data using YAML files:
+  1. hosts.yaml: Contains the IP addresses for R1, R2, and R3.
+  2. groups.yaml: Defines the ios platform for all Cisco devices.
+  3. defaults.yaml: Stores global credentials (username/password).
+  4. config.yaml: Configures the Threaded Runner to handle 10 simultaneous workers for parallel execution.
+
+Main Automation Script (main.py)
+The Python script initializes the Nornir object and executes the show ip interface brief command across the entire inventory in parallel.
+
+Results and Validation
+The automation was successful. The script successfully bypassed standard Linux SSH security restrictions (obsolete KEX/HostKey algorithms) by using Netmiko's native handling.
+
+Author: Jose Armando Martinez Perez
+Institution: Instituto Tecnológico de Querétaro (ITQ)
