@@ -1,5 +1,6 @@
 # Nornir-with-Netmiko
 Project Overview
+<br>
 This project demonstrates the implementation of a network automation framework using Nornir and Python. The objective was to manage three Cisco IOS routers simultaneously within a simulated environment to perform mass data collection (Interface Status) through SSH.
 
 Technical Stack
