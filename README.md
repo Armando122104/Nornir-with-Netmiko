@@ -27,7 +27,7 @@ The project follows a decoupled architecture, separating the logic from the data
 <img width="637" height="73" alt="image" src="https://github.com/user-attachments/assets/6adf1449-63fe-4248-91ca-7545191ad602" />
 <br><br>
 
-Main Automation Script (main.py)
+Main Automation Script (main.py) <br>
 The Python script initializes the Nornir object and executes the show ip interface brief command across the entire inventory in parallel.
 <img width="585" height="366" alt="image" src="https://github.com/user-attachments/assets/30724abd-275e-4317-a2f1-8644cadb3fc4" />
 <br><br>
