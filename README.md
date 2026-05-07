@@ -32,7 +32,7 @@ The Python script initializes the Nornir object and executes the show ip interfa
 <img width="585" height="366" alt="image" src="https://github.com/user-attachments/assets/30724abd-275e-4317-a2f1-8644cadb3fc4" />
 <br><br>
 
-Results and Validation
+Results and Validation <br>
 The automation was successful. The script successfully bypassed standard Linux SSH security restrictions (obsolete KEX/HostKey algorithms) by using Netmiko's native handling.
 
 Execution Output
