@@ -17,6 +17,7 @@ Network Topology
 <br><br>
 
 Inventory Structure
+<br>
 The project follows a decoupled architecture, separating the logic from the data using YAML files:
   1. hosts.yaml: Contains the IP addresses for R1, R2, and R3.
   2. groups.yaml: Defines the ios platform for all Cisco devices.
