@@ -42,7 +42,7 @@ Below is the output showing the real-time status of the interfaces for all three
 
 This practice is available for everyone in the next link:
 https://youtu.be/z5B0rK9nkI0?si=ZnuEwpevaY8IvKLh
-<br>
+<br><br>
 Author: Jose Armando Martinez Perez
 <br>
 Institution: Instituto Tecnológico de Querétaro (ITQ)
