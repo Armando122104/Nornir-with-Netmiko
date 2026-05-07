@@ -13,7 +13,7 @@ Technical Stack
 Network Topology
   1. The architecture consists of a management workstation (Ubuntu VM) connected to a Layer 2 Ethernet Switch, which provides access to the management       interfaces (FastEthernet 0/0) of all three routers.
 
-<img width="458" height="430" alt="Screenshot 2026-05-06 123918" src="https://github.com/user-attachments/assets/0c768346-8a61-42b7-9947-4e4d70cbf92a">
+<p aling="center"><img width="458" height="430" alt="Screenshot 2026-05-06 123918" src="https://github.com/user-attachments/assets/0c768346-8a61-42b7-9947-4e4d70cbf92a"></p>
 <br><br>
 
 Inventory Structure
@@ -35,7 +35,7 @@ The Python script initializes the Nornir object and executes the show ip interfa
 Results and Validation <br>
 The automation was successful. The script successfully bypassed standard Linux SSH security restrictions (obsolete KEX/HostKey algorithms) by using Netmiko's native handling.
 
-Execution Output
+Execution Output <br>
 Below is the output showing the real-time status of the interfaces for all three routers retrieved in a single execution:
 <br>
 <img width="913" height="376" alt="Screenshot 2026-05-06 123618" src="https://github.com/user-attachments/assets/5056dbe2-e84e-43c6-a981-a70a3e84abbc" />
