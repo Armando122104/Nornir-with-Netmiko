@@ -40,6 +40,9 @@ Below is the output showing the real-time status of the interfaces for all three
 <img width="913" height="376" alt="Screenshot 2026-05-06 123618" src="https://github.com/user-attachments/assets/5056dbe2-e84e-43c6-a981-a70a3e84abbc" />
 <br><br>
 
+This practice is available for everyone in the next link:
+https://youtu.be/z5B0rK9nkI0?si=ZnuEwpevaY8IvKLh
+<br>
 Author: Jose Armando Martinez Perez
 <br>
 Institution: Instituto Tecnológico de Querétaro (ITQ)
